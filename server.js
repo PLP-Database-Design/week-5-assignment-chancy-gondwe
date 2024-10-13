@@ -5,10 +5,10 @@ const mysql = require('mysql2');
 
 // Setup database connection
 const db = mysql.createPool({
-    host: process.env.localhost,
-    user: process.env.root,
-    password: process.env.Chancy01,
-    database: process.env.hospital_db,
+    host:'localhost',
+    user:'root',
+    password:'Chancy@01;,
+    database: 'hospital_db',
 });
 
 // Test database connection
